@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8B5E3C;
+  --color-accent: #D4956A;
+  --color-bg: #FAF7F2;
+  --color-text-main: #2C2C2C;
+  --color-cream-50: #FDFCF9;
+  --color-cream-100: #FAF7F2;
+  --color-cream-200: #F0E8DA;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FAF7F2;
+  color: #2C2C2C;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
