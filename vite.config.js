@@ -9,3 +9,7 @@ export default defineConfig({
     port: 5173,
   },
 })
+export default defineConfig({
+  base: '/Full-Guest-House-Plovdiv/',
+  // ... rest of your config
+})
